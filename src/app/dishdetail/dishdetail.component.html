@@ -1,0 +1,28 @@
+<mat-card>
+  <div class="container"
+    fxLayout="row"
+    fxLayout.sm="column"
+    fxLayout.xs="column"
+    fxLayoutAlign.gt-md="space-around center"
+    fxLayoutGap="10px" 
+    fxLayoutGap.xs="0">
+  
+    <div fxFlex="40">
+      <h1>{{dish.name | uppercase}}</h1>
+      <img src={{dish.image}} alt={{dish.name}}>
+      <p>{{dish.description}}</p>
+      <button mat-button color="primary">Like</button>
+      <button mat-button color="primary">Share</button>
+    </div>
+    <div fxFlex="40">
+      <h1>Comments</h1>
+      <mat-grid-list cols="1" rowHeight="50px">
+        <mat-grid-tile *ngFor="let comm of dish.comments">
+            <h4> {{comm.comment}} </h4>
+            <h4>{{comm.rating}} stars</h4>
+            <p>-- {{comm.author}} {{comm.date | date}} </p>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </div>
+  </div>
+</mat-card>

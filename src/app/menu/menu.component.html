@@ -3,7 +3,7 @@
   fxLayoutGap="10px">
   <div fxFlex>
     <div>
-      <h3>Menu</h3>
+      <h1>Menu</h1>
       <hr>
     </div>
   </div>
@@ -17,21 +17,5 @@
       </mat-grid-tile>
     </mat-grid-list>
   </div>
-  <div fxFlex *ngIf="selectedthing">
-    <mat-card>
-      <mat-card-header>
-        <mat-card-title>
-          <h3>{{selectedthing.name | uppercase}}</h3>
-        </mat-card-title>
-      </mat-card-header>
-      <img mat-card-image src={{selectedthing.image}} alt={{selectedthing.name}}>
-      <mat-card-content>
-        <p>{{selectedthing.description}}</p>
-      </mat-card-content>
-      <mat-card-actions>
-        <button mat-button>LIKE</button>
-        <button mat-button>SHARE</button>
-      </mat-card-actions>
-    </mat-card>
-  </div>
+ <app-dishdetail></app-dishdetail>
 </div>
