@@ -4,7 +4,7 @@ export const DISHES: Dish[] = [
     {
         id: '0',
         name: 'Uthappizza',
-        image: '/assets/images/uthappizza.png',
+        image: '/assets/images/kazem.jpg',
         category: 'mains',
         featured: true,
         label: 'Hot',
@@ -47,7 +47,7 @@ export const DISHES: Dish[] = [
     {
         id: '1',
         name: 'Zucchipakoda',
-        image: '/assets/images/zucchipakoda.png',
+        image: '/assets/images/bbq.jpeg',
         category: 'appetizer',
         featured: false,
         label: '',
@@ -89,7 +89,7 @@ export const DISHES: Dish[] = [
     {
         id: '2',
         name: 'Vadonut',
-        image: '/assets/images/vadonut.png',
+        image: '/assets/images/pizza.jpg',
         category: 'appetizer',
         featured: false,
         label: 'New',
@@ -131,7 +131,7 @@ export const DISHES: Dish[] = [
     {
         id: '3',
         name: 'ElaiCheese Cake',
-        image: '/assets/images/elaicheesecake.png',
+        image: '/assets/images/7ade2.jpg',
         category: 'dessert',
         featured: false,
         label: '',
