@@ -51,7 +51,7 @@
     {
       "id": "1",
       "name": "Zucchipakoda",
-      "image": "images/zucchipakoda.png",
+      "image": "images/zucchipakoda.jpg",
       "category": "appetizer",
       "featured": false,
       "label": "",
@@ -93,7 +93,7 @@
     {
       "id": "2",
       "name": "Vadonut",
-      "image": "images/vadonut.png",
+      "image": "images/spaghetti.jpg",
       "category": "appetizer",
       "featured": false,
       "label": "New",
@@ -135,7 +135,7 @@
     {
       "id": "3",
       "name": "ElaiCheese Cake",
-      "image": "images/elaicheesecake.png",
+      "image": "images/elaicheesecake.jpeg",
       "category": "dessert",
       "featured": false,
       "label": "",
