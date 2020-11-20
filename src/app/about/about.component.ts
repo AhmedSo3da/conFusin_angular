@@ -3,7 +3,7 @@ import { Params, ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 import { LeaderService } from '../services/leader.service';
 import { Leader } from '../shared/leader';
-import { flyInOut } from '../animations/app.animations';
+import { flyInOut, expand } from '../animations/app.animations';
 
 @Component({
   selector: 'app-about',
@@ -14,7 +14,8 @@ import { flyInOut } from '../animations/app.animations';
     'style': 'display: block;'
     },
     animations: [
-      flyInOut()
+      flyInOut(),
+      expand()
     ]
 })
 export class AboutComponent implements OnInit {
